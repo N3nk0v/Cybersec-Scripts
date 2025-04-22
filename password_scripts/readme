@@ -1,0 +1,37 @@
+# Password Scripts Collection
+
+This folder contains a collection of scripts related to password cracking, password analysis, and password security.
+---
+
+🔐 Password Security Checker
+This script helps users evaluate the security of their passwords by performing both local and online checks, along with password strength analysis.
+
+Features:
+Local Check: The script checks if the password is present in a predefined password dictionary file (such as rockyou.txt).
+Online Check: It also queries the HaveIBeenPwned (HIBP) service using the k-anonymity model to verify if the password has been exposed in any public data breaches.
+
+Password Strength Analysis: It evaluates password strength based on the following criteria:
+Minimum length: 12 characters for medium strength, longer than 16 for strong. Contains uppercase and lowercase letters.
+Includes at least one digit and one special character (e.g., !@#$%^&*).
+Strong passwords must meet all these conditions and exceed 16 characters.
+                                                       
+User Interaction:
+The user is prompted to input a password, after which the script provides feedback on:
+Password strength (Strong, Medium, Weak).
+                                                       
+Exposure check:
+If it exists in a dictionary file locally.
+If it has been exposed in public breaches via HIBP.
+
+How to Use:
+Choose Option: Select whether to check the password locally (using a dictionary) or online (via HIBP).
+Input Password: Enter the password to evaluate.
+View Results: Receive feedback on password strength and exposure status.
+Repeat: Option to check more passwords.
+
+This tool is intended to help improve password security by identifying weak or compromised passwords.
+
+
+
+
+                                                       

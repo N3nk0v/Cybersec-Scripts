@@ -28,8 +28,24 @@ Choose Option: Select whether to check the password locally (using a dictionary)
 Input Password: Enter the password to evaluate.
 View Results: Receive feedback on password strength and exposure status.
 Repeat: Option to check more passwords.
-
 This tool is intended to help improve password security by identifying weak or compromised passwords.
+
+ 🔑 Password Dictionary Generator Script
+
+### Description:
+This script generates a customized password dictionary based on a base word (theme) and creates variations of that word using combinations of letters, digits, and special characters. 
+It also supports generating themed passwords with a mix of different character sets, including the Bulgarian alphabet. 
+The generated passwords are saved in a text file within the specified output directory.
+
+### Key Features:
+- **Base Word Variations:** The script generates password variations based on a given base word, replacing characters with similar-looking characters (e.g., "a" with "@", "s" with "$").
+- **Wide Alphabet Support:** It supports a wide alphabet, including both the English and Bulgarian alphabets, as well as digits and special characters.
+- **Password Length Control:** The script generates passwords of varying lengths, with an option to control the range of lengths (between 8 and 14 characters in this case).
+- **Output:** The generated passwords are written into a text file in the output directory, with a filename that increments for each new dictionary generated.
+
+### Usage Example:
+To generate a dictionary for the theme "medic" for example, with a maximum of 1000 passwords, run the script, and the resulting dictionary file will be saved in the specified output directory.
+
 
 
 

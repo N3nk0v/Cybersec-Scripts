@@ -1,4 +1,4 @@
-📁 This folder will contain some cybersecurity scanners and exploration scripts. 
+This folder will contain some cybersecurity scanners and exploration scripts. 
 These tools are designed for scanning devices, networks, and vulnerabilities to assist in security testing and learning.
 
 🔐 Bluetooth Device Scanner and Vendor Finder
@@ -8,6 +8,7 @@ This script scans for nearby Bluetooth devices and checks the vendor information
 It then logs the results in a file on the Desktop, categorizing the devices as either real or possibly fake based on the MAC address.
 
 ⚙️ How It Works
+
 Uses BleakScanner (via the bleak library) to discover Bluetooth devices.
 For each device, it fetches the vendor information by querying an external API (maclookup.app) using the MAC address.
 Logs the results in a file on the Desktop, including the devices name, MAC address, and vendor (or a warning if the MAC adress appears fake).

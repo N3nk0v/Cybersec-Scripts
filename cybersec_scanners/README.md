@@ -3,6 +3,7 @@ These tools are designed for scanning devices, networks, and vulnerabilities to 
 
 🔐 Bluetooth Device Scanner and Vendor Finder
 📄 Script: bluetooth_scanner.py
+
 🧠 Description
 This script scans for nearby Bluetooth devices and checks the vendor information based on the MAC address. 
 It then logs the results in a file on the Desktop, categorizing the devices as either real or possibly fake based on the MAC address.

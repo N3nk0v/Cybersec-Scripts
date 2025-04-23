@@ -1,5 +1,4 @@
 # Password Scripts Collection
-
 This folder contains a collection of scripts related to password cracking, password analysis, and password security.
 ---
 
@@ -46,6 +45,22 @@ The generated passwords are saved in a text file within the specified output dir
 ### Usage Example:
 To generate a dictionary for the theme "medic" for example, with a maximum of 1000 passwords, run the script, and the resulting dictionary file will be saved in the specified output directory.
 
+🔐 MD5 Hash Brute-force Script
+📄 Script: md5_bruteforce.py
+🧠 Description
+This is a simple brute-force tool for cracking MD5 hashes, written in pure Python. It attempts to recover the original plaintext string that corresponds to a given MD5 hash by generating and checking all possible combinations of lowercase letters, up to a specified length.
+
+⚙️ How It Works
+Uses itertools.product to generate combinations of characters.
+Hashes each combination using hashlib.md5().
+Compares each generated hash to the target hash.
+If a match is found, prints the original string and time taken.
+
+🧪  For Example when we input target hash:
+target_hash = "5d41402abc4b2a76b9719d911017c592" it shoud shows us "hello"
+
+⚠️ Disclaimer
+All scripts in this folder are part of my personal learning journey in cybersecurity and are created solely for educational and academic purposes.
 
 
 

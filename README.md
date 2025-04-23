@@ -40,6 +40,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 📬 Feedback or Contributions
-
-If you have suggestions, want to report a bug, or contribute — feel free to open an issue or pull request.

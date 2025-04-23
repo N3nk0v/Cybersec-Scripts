@@ -2,7 +2,7 @@
 This folder contains a collection of scripts related to password cracking, password analysis, and password security.
 ---
 
-🔐 Password Security Checker
+🔐 check_password
 This script helps users evaluate the security of their passwords by performing both local and online checks, along with password strength analysis.
 
 Features:

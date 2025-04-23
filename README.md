@@ -13,7 +13,6 @@ Scripts are grouped in folders according to their domain or purpose. For example
 
 - `check_password/` — A script to check if a password that has been created has been cracked or leaked anywhere.
 - `password_dictionary_generator/` - A script for generating dictionaries for various purposes, such as brute-force attacks.
-- `steganography_histogram_analysis/` — A script for analyzing images for steganography through histogram analysis.
 - `bluetooth_device_scanner/` — A script for scanning Bluetooth devices and checking their MAC addresses.
 - `bruteforce_md5_cracker/` — A script for performing a brute force attack on MD5 hashes.
 Expect more tools and scripts to be added shortly

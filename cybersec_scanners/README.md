@@ -1,5 +1,4 @@
-📁 Overview
-This folder will contain some cybersecurity scanners and exploration scripts. 
+📁 This folder will contain some cybersecurity scanners and exploration scripts. 
 These tools are designed for scanning devices, networks, and vulnerabilities to assist in security testing and learning.
 
 🔐 Bluetooth Device Scanner and Vendor Finder
@@ -14,7 +13,6 @@ For each device, it fetches the vendor information by querying an external API (
 Logs the results in a file on the Desktop, including the devices name, MAC address, and vendor (or a warning if the MAC adress appears fake).
 
 🧪  For Example
-
 # Example log entry:
 # ✅ Device: Device_Name, MAC: 01:23:45:67:89:AB, Vendor: Vendor_Name
 # ⛔ Device: Unknown, MAC: 12:34:56:78:90:CD, STATUS: ⚠️ Possible fake MAC address!

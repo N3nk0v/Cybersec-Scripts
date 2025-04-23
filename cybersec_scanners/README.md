@@ -2,6 +2,7 @@ This folder will contain some cybersecurity scanners and exploration scripts.
 These tools are designed for scanning devices, networks, and vulnerabilities to assist in security testing and learning.
 
 🔐 Bluetooth Device Scanner and Vendor Finder
+
 📄 Script: bluetooth_scanner.py
 
 🧠 Description
